@@ -1,0 +1,13 @@
+# Аудит-снапшот: на GitHub — ТОЛЬКО очищенная выборка (см. AUDIT.md).
+# deny-all + явные разрешения: лишние файлы в репозиторий не попадут.
+*
+!.gitignore
+!AUDIT.md
+!android/
+!android/**
+!crypto/
+!crypto/**
+!go/
+!go/**
+!project/
+!project/**
